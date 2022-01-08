@@ -13,6 +13,10 @@ npm install
 gulp
 ```
 
+## Interoperability
+
+In order to use this module in conjunction with [AmazonS3](https://github.com/Daniel-KM/Omeka-S-module-AmazonS3), you must [setup a CORS policy](https://docs.aws.amazon.com/AmazonS3/latest/userguide/enabling-cors-examples.html) on your buckets.
+
 ## License
 
 This module uses a GPLv3 license. It relies on [Mozilla's pdf.js](https://github.com/mozilla/pdf.js), which is released under an Apache license.
