@@ -57,6 +57,9 @@
     background: none;
     appearance: none;
     -webkit-appearance: none;
+    border: none;
+    box-shadow: none;
+    margin: 0 2px;
     opacity: 0.75;
     transition: opacity 0.3s ease;
 }
