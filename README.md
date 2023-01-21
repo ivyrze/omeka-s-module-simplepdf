@@ -15,6 +15,8 @@ gulp
 
 ## Interoperability
 
+For users of Omeka S 4.0 and higher, we recommend making use of the "smart embeds" resource page block included in the [PageBlocks](https://github.com/ivyrze/omeka-s-module-pageblocks) module.
+
 In order to use this module in conjunction with [AmazonS3](https://github.com/Daniel-KM/Omeka-S-module-AmazonS3), you must [setup a CORS policy](https://docs.aws.amazon.com/AmazonS3/latest/userguide/enabling-cors-examples.html) on your buckets.
 
 ## License
