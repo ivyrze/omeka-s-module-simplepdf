@@ -27,9 +27,15 @@ $this->headScript()->appendFile($assetUrl('js/simplepdf.js', 'SimplePdf'), 'text
         <span id="pdf-page-count"><?= $this->translate('of') ?> 1</span>
     </div>
     <div>
-        <button title="<?= $this->translate('Zoom in') ?>" class="fa fa-search-plus" id="pdf-zoom-in"></button>
-        <button title="<?= $this->translate('Zoom out') ?>" class="fa fa-search-minus" id="pdf-zoom-out"></button>
-        <button title="<?= $this->translate('Fit to page') ?>" class="fa fa-expand" id="pdf-zoom-fit"></button>
+        <button title="<?= $this->translate('Zoom in') ?>" id="pdf-zoom-in">
+            <span class="fa fa-search-plus" aria-hidden="true"></span>
+        </button>
+        <button title="<?= $this->translate('Zoom out') ?>" id="pdf-zoom-out">
+            <span class="fa fa-search-minus" aria-hidden="true"></span>
+        </button>
+        <button title="<?= $this->translate('Fit to page') ?>" id="pdf-zoom-fit">
+            <span class="fa fa-expand" aria-hidden="true"></span>
+        </button>
     </div>
 </div>
 <div id="pdf-container">
